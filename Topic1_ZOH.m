@@ -49,10 +49,15 @@ title('Continuous & Discrete Poles and Zeros');
 grid on;
 
 figure;
-pzmap(Gc); title('Continuous Poles and Zeros'); grid on;
+pzmap(Gc); 
+title('Continuous Poles and Zeros'); 
+grid on;
 
 figure;
-pzmap(Gz); title('Discrete Poles and Zeros'); grid on;
+pzmap(Gz); 
+title
+('Discrete Poles and Zeros'); 
+grid on;
 
 
 % POLE-ZERO MAP together
