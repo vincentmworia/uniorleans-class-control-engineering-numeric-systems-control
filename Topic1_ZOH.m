@@ -55,8 +55,7 @@ grid on;
 
 figure;
 pzmap(Gz); 
-title
-('Discrete Poles and Zeros'); 
+title('Discrete Poles and Zeros'); 
 grid on;
 
 
