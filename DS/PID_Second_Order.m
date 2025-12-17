@@ -1,4 +1,4 @@
-clc; clear all; close all;
+clc; clear; close all;
 %% 1. Nichols 
 Gp = tf(10,[1/100 0.1 1])
 

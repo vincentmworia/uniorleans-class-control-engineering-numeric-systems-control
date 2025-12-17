@@ -1,10 +1,10 @@
-clear all; close all; clc;
+clear ; close all; clc;
 
-%% Linear Regression Method (2 data points)
+%% Linear Regression Method  
 fprintf('--- Linear Regression Method ---\n');
 
 k = 0:9;
-s = [0 0.52 0.9 1.2 1.4 1.55 1.67 1.73 1.82 1.86];
+s = [0 0.52 0.9 1.2 1.4 1.55 1.67 1.73 1.8 1.86];
 e = [0 1 1 1 1 1 1 1 1 1];
 
 % Identification with 2 data points (k = 3 and 4)
